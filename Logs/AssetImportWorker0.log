@@ -15,11 +15,11 @@ C:/unity/GitHub/jrpg
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52381
+60133
 Successfully changed project path to: C:/unity/GitHub/jrpg
 C:/unity/GitHub/jrpg
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003261 seconds.
+Registered in 0.001578 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 55.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.177 seconds
+- Completed reload, in  1.047 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1177ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (1048ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (515ms)
+		EndReloadAssembly (397ms)
 			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (135ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (211ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (172ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (21ms)
-				ProcessInitializeOnLoadAttributes (103ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004429 seconds.
+Registered in 0.005092 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.429 seconds
+- Completed reload, in  1.294 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1430ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (1295ms)
+		BeginReloadAssembly (199ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1228ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1041ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (449ms)
+			SetupTypeCache (336ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (537ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (469ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (302ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1708 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.1 MB.
-System memory in use after: 90.2 MB.
+Unloading 1755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.3 MB.
+System memory in use after: 105.3 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2167.
-Total: 2.865300 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.057600 ms MarkObjects: 2.538700 ms  DeleteObjects: 0.080500 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2227.
+Total: 3.045200 ms (FindLiveObjects: 0.196500 ms CreateObjectMapping: 0.055700 ms MarkObjects: 2.694300 ms  DeleteObjects: 0.097700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,239 +131,612 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/KinematicSoup
-  artifactKey: Guid(8cc7aafc3f5bf1943996577b72f08a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KinematicSoup using Guid(8cc7aafc3f5bf1943996577b72f08a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c4cca5b8ebf336b94db783f71f74ac') in 0.009587 seconds 
-  Import took 0.012621 seconds .
+  path: Assets/Blink/Tools/RPGBuilder/Scenes/RPGBuilderDemo/LightingData.asset
+  artifactKey: Guid(7fc4ce7ccb18f214e9b8a18e72604be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Scenes/RPGBuilderDemo/LightingData.asset using Guid(7fc4ce7ccb18f214e9b8a18e72604be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f28e233f281ce5c4030218984ab04ab') in 0.029998 seconds 
+  Import took 0.033003 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/KinematicSoup/SceneFusion
-  artifactKey: Guid(54c3fabc56debc046b8cc3a80bf77028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KinematicSoup/SceneFusion using Guid(54c3fabc56debc046b8cc3a80bf77028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0806a91860606e8f77a1ff777358d836') in 0.005340 seconds 
-  Import took 0.008432 seconds .
+  Time since last request: 0.000150 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Scenes/RPGBuilderDemo/RPGBuilderDemoTerrain.asset
+  artifactKey: Guid(ac428271f8a458343932a0362897f1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Scenes/RPGBuilderDemo/RPGBuilderDemoTerrain.asset using Guid(ac428271f8a458343932a0362897f1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefaab86fd6c5571cae2ae600d553e21') in 0.183827 seconds 
+  Import took 0.189484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Scenes/RPGBuilderDemo/NavMesh.asset
+  artifactKey: Guid(f288746dd9344664f90327917e848c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Scenes/RPGBuilderDemo/NavMesh.asset using Guid(f288746dd9344664f90327917e848c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee9a996b113e24abbb566200d148a3b') in 0.070432 seconds 
+  Import took 0.073680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Scenes/RPGBuilderDemo/ReflectionProbe-0.exr
+  artifactKey: Guid(127946d3bf0e24a4cb622fabf2306317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Scenes/RPGBuilderDemo/ReflectionProbe-0.exr using Guid(127946d3bf0e24a4cb622fabf2306317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09794acd0cc350c036b97ebcc01b7ff3') in 0.065655 seconds 
+  Import took 0.068516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.117419 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Scenes/RPGBuilderDemo.unity
+  artifactKey: Guid(f89f8fdf4492100489d95509b6a7a633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Scenes/RPGBuilderDemo.unity using Guid(f89f8fdf4492100489d95509b6a7a633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a17eca5d171c40302a48f4b90f701f8') in 0.005886 seconds 
+  Import took 0.009456 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.3 MB.
+System memory in use after: 70.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 2.987600 ms (FindLiveObjects: 0.183200 ms CreateObjectMapping: 0.067500 ms MarkObjects: 2.723300 ms  DeleteObjects: 0.012800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 862.485556 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(99f3aa7677270fd4da344a1f49d3445e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(99f3aa7677270fd4da344a1f49d3445e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb73d9a8b074381f9f79184bdae78371') in 0.008348 seconds 
+  Import took 0.014817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(99f3aa7677270fd4da344a1f49d3445e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(99f3aa7677270fd4da344a1f49d3445e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb73d9a8b074381f9f79184bdae78371') in 0.002731 seconds 
+  Import took 0.007024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.873954 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.012620 seconds 
+  Import took 0.017295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 306.610244 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/NaughtyCharacter/ScriptableObjects/PlayerController.asset
+  artifactKey: Guid(827c282016b19644d99b2337152dc01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/NaughtyCharacter/ScriptableObjects/PlayerController.asset using Guid(827c282016b19644d99b2337152dc01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ceb6b0a27d0507c7a42d8ac62b4ecf') in 0.008296 seconds 
+  Import took 0.012460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005583 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/NaughtyCharacter/ScriptableObjects/PlayerController.asset
+  artifactKey: Guid(827c282016b19644d99b2337152dc01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/NaughtyCharacter/ScriptableObjects/PlayerController.asset using Guid(827c282016b19644d99b2337152dc01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ceb6b0a27d0507c7a42d8ac62b4ecf') in 0.002771 seconds 
+  Import took 0.006590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.564497 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyLicenses.txt
+  artifactKey: Guid(48cd2b498a03c4f4d8acaf656612535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyLicenses.txt using Guid(48cd2b498a03c4f4d8acaf656612535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b627889131616a55d5b998d0309b426a') in 0.014976 seconds 
+  Import took 0.018922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.202255 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/Graveyard.prefab
+  artifactKey: Guid(3cc1018f196faa94da7b46ee524ff3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/Graveyard.prefab using Guid(3cc1018f196faa94da7b46ee524ff3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3411a905fc45905c1f48502eccfa4e') in 0.047533 seconds 
+  Import took 0.051724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag.prefab
+  artifactKey: Guid(e0369926586ca3549bc495485a236897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag.prefab using Guid(e0369926586ca3549bc495485a236897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6808fa8518d91add5f68c6914f45cb1') in 0.023919 seconds 
+  Import took 0.027419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.773708 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/CraftingStations
+  artifactKey: Guid(65e77bf77652e3a4283f3dae4dbad438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/CraftingStations using Guid(65e77bf77652e3a4283f3dae4dbad438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c89282082ea4e140d9c8b1dbf3e0ac6') in 0.008493 seconds 
+  Import took 0.012107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.076498 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/Enchanting
+  artifactKey: Guid(7f6e30fdb55371a4780598b7d18cff81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/Enchanting using Guid(7f6e30fdb55371a4780598b7d18cff81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687d47bff398299afb09c2e7587fa96b') in 0.008632 seconds 
+  Import took 0.013197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.452958 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag
+  artifactKey: Guid(5ed90c5fec38c394b8559150a908d810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag using Guid(5ed90c5fec38c394b8559150a908d810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe92aa8bd4b0e437fdd7da7f8794431') in 0.004874 seconds 
+  Import took 0.010327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.203539 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/Bag.mat
+  artifactKey: Guid(6dbd088992cddeb44a08a957f41d0a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/Bag.mat using Guid(6dbd088992cddeb44a08a957f41d0a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607e0a9f8ab452afac95a3c8ccf4dc54') in 0.023989 seconds 
+  Import took 0.027244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/money_bag.fbx
+  artifactKey: Guid(0a472b1b0415fa8488a575d753711349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/money_bag.fbx using Guid(0a472b1b0415fa8488a575d753711349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc257420360a1e20eeeafc8fd5b2eee') in 0.073995 seconds 
+  Import took 0.076862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/bag.png
+  artifactKey: Guid(aedec9efb6173e44c861cfb8b1e5d429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/bag.png using Guid(aedec9efb6173e44c861cfb8b1e5d429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bea6d0f7b12e552f32e71ae8707135') in 0.021118 seconds 
+  Import took 0.024456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/coin_texture.png
+  artifactKey: Guid(d3d6c79be0bb8d4458c62f48a5c5bdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/coin_texture.png using Guid(d3d6c79be0bb8d4458c62f48a5c5bdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069fc7cf7c398f78cb7aff3a17e44d82') in 0.010309 seconds 
+  Import took 0.013418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/bag.png
+  artifactKey: Guid(aedec9efb6173e44c861cfb8b1e5d429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/bag.png using Guid(aedec9efb6173e44c861cfb8b1e5d429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bea6d0f7b12e552f32e71ae8707135') in 0.005258 seconds 
+  Import took 0.008200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/coin_texture.png
+  artifactKey: Guid(d3d6c79be0bb8d4458c62f48a5c5bdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/coin_texture.png using Guid(d3d6c79be0bb8d4458c62f48a5c5bdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069fc7cf7c398f78cb7aff3a17e44d82') in 0.007544 seconds 
+  Import took 0.011278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/Coins.mat
+  artifactKey: Guid(0633befa43c4ef34d83efafef1c0dd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/Coins.mat using Guid(0633befa43c4ef34d83efafef1c0dd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b4fa1b2b335e8c532c362ee9d86ad1') in 0.012556 seconds 
+  Import took 0.015571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.864507 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/Particles
+  artifactKey: Guid(158f26c86b6775d4b97149a449d70240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/Particles using Guid(158f26c86b6775d4b97149a449d70240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af747f8b761f0c98370697845579d9d') in 0.006026 seconds 
+  Import took 0.009419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.211872 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/Particles/LeavesParticleObject.prefab
+  artifactKey: Guid(13af6c1acbe82144196eec0867496641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/Particles/LeavesParticleObject.prefab using Guid(13af6c1acbe82144196eec0867496641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a8f093db2509ee2801d7da07a3a8a0') in 0.015033 seconds 
+  Import took 0.018169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/Particles/LeavesParticleObjectGreen.prefab
+  artifactKey: Guid(0b38b19815b330649b35d12d1df71662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/Particles/LeavesParticleObjectGreen.prefab using Guid(0b38b19815b330649b35d12d1df71662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a86c821214b39c52add1089a5494d7d') in 0.014370 seconds 
+  Import took 0.017981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/Particles/SnowParticleObject.prefab
+  artifactKey: Guid(cb83ef3f80dbe1444bd5fa37b2ea4cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/Particles/SnowParticleObject.prefab using Guid(cb83ef3f80dbe1444bd5fa37b2ea4cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111e72e901f1c96e58344fd63db36215') in 0.016137 seconds 
+  Import took 0.020271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/Particles/SmokeParticleObject.prefab
+  artifactKey: Guid(1aa6f56981873e94dbd4ec5e6b8353d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/Particles/SmokeParticleObject.prefab using Guid(1aa6f56981873e94dbd4ec5e6b8353d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e79759b5baf9d56cba3bb73f937b75c') in 0.025713 seconds 
+  Import took 0.029152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/Particles/SmokeLavaParticleObject.prefab
+  artifactKey: Guid(e5d44d125fb970b49b90c574543dfe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/Particles/SmokeLavaParticleObject.prefab using Guid(e5d44d125fb970b49b90c574543dfe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c762123cb47067e18c21e5ea9fdaa4fa') in 0.014021 seconds 
+  Import took 0.018252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007003 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/Particles/SmokeLavaParticleObject.prefab
+  artifactKey: Guid(e5d44d125fb970b49b90c574543dfe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/Particles/SmokeLavaParticleObject.prefab using Guid(e5d44d125fb970b49b90c574543dfe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c762123cb47067e18c21e5ea9fdaa4fa') in 0.009508 seconds 
+  Import took 0.013422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.565095 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes
+  artifactKey: Guid(b29a57532a26d8f4d81f14efb235188a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes using Guid(b29a57532a26d8f4d81f14efb235188a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e366adf6be868aab15935f6f34dcc205') in 0.010779 seconds 
+  Import took 0.015814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.261195 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/BlueFlower_RN.prefab
+  artifactKey: Guid(ea001bcd68210d644a1e2bc2ebd9fa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/BlueFlower_RN.prefab using Guid(ea001bcd68210d644a1e2bc2ebd9fa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5859fe83e3664136df37156bf2e15f') in 0.041642 seconds 
+  Import took 0.044767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/YellowFlower_RN.prefab
+  artifactKey: Guid(bd4026ed7ee8ba145b81f270bb07fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/YellowFlower_RN.prefab using Guid(bd4026ed7ee8ba145b81f270bb07fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e97dccd70d532e7efc4512086f1adec') in 0.020910 seconds 
+  Import took 0.024023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/EpicChest.prefab
+  artifactKey: Guid(e8cf7dcd6636ff6418644a9a74ec5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/EpicChest.prefab using Guid(e8cf7dcd6636ff6418644a9a74ec5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5561ca14556d30b17c01a716ccf9d088') in 0.025368 seconds 
+  Import took 0.028755 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000181 seconds.
-  path: Assets/KinematicSoup/SceneFusion/ksVive.prefab
-  artifactKey: Guid(e18b8aca51a0ccf4299c7221d5d97e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KinematicSoup/SceneFusion/ksVive.prefab using Guid(e18b8aca51a0ccf4299c7221d5d97e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab479151559506337f9fe0027f4651ae') in 0.290029 seconds 
-  Import took 0.293200 seconds .
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/IronOre_RN.prefab
+  artifactKey: Guid(b89e158032e07bf40ace278c0351571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/IronOre_RN.prefab using Guid(b89e158032e07bf40ace278c0351571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7b21fe0de5738f97d9a6c2693ce9db') in 0.018431 seconds 
+  Import took 0.022087 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Blink
-  artifactKey: Guid(6eefbe8efcc5bd64f9e62449fef3bd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink using Guid(6eefbe8efcc5bd64f9e62449fef3bd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48604cfabb1a4ce908a90285a899ff0c') in 0.007815 seconds 
-  Import took 0.011729 seconds .
+  Time since last request: 0.000209 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/CopperOre_RN.prefab
+  artifactKey: Guid(2850c78b4d3ebcb41872dadb192abfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/CopperOre_RN.prefab using Guid(2850c78b4d3ebcb41872dadb192abfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a752cbf488e0d9525fc8e1d920df4ff9') in 0.017218 seconds 
+  Import took 0.021139 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/KinematicSoup/SceneFusion/ksOculusRight.prefab
-  artifactKey: Guid(61c1926ea12c7ed48a8b8b432fb77920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KinematicSoup/SceneFusion/ksOculusRight.prefab using Guid(61c1926ea12c7ed48a8b8b432fb77920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a569ff86ab8de429785806445175f4d') in 0.015080 seconds 
-  Import took 0.019433 seconds .
+  Time since last request: 0.000160 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/RedFlower_RN.prefab
+  artifactKey: Guid(8e697c88644fcf643b0d8f2765a5ae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/RedFlower_RN.prefab using Guid(8e697c88644fcf643b0d8f2765a5ae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e808c790a4d734796c412c2c34da5c0f') in 0.020154 seconds 
+  Import took 0.023695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/CopperOre_RN.prefab
+  artifactKey: Guid(2850c78b4d3ebcb41872dadb192abfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/CopperOre_RN.prefab using Guid(2850c78b4d3ebcb41872dadb192abfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a752cbf488e0d9525fc8e1d920df4ff9') in 0.012484 seconds 
+  Import took 0.016396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/RedFlower_RN.prefab
+  artifactKey: Guid(8e697c88644fcf643b0d8f2765a5ae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/RedFlower_RN.prefab using Guid(8e697c88644fcf643b0d8f2765a5ae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e808c790a4d734796c412c2c34da5c0f') in 0.012992 seconds 
+  Import took 0.017077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.162092 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Characters/PLAYER_HumanMale.prefab
+  artifactKey: Guid(1fb8a18395915ed4cb03838d275d8970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Characters/PLAYER_HumanMale.prefab using Guid(1fb8a18395915ed4cb03838d275d8970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e069d78c0b82e03de0fa856e3c1b2e8') in 0.110441 seconds 
+  Import took 0.116511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.262278 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Characters/Integrations
+  artifactKey: Guid(ff94f0c70e535ec4f853a6e3e1e68b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Characters/Integrations using Guid(ff94f0c70e535ec4f853a6e3e1e68b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3c997738c72109a9df7479216bf330') in 0.008417 seconds 
+  Import took 0.011723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001191 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Characters/Integrations
+  artifactKey: Guid(ff94f0c70e535ec4f853a6e3e1e68b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Characters/Integrations using Guid(ff94f0c70e535ec4f853a6e3e1e68b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3c997738c72109a9df7479216bf330') in 0.001787 seconds 
+  Import took 0.005278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.912847 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Characters/Integrations/ExplosiveAnimatorOverrides.unitypackage
+  artifactKey: Guid(0e6898b5fd47635478e4b51ea9e5a15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Characters/Integrations/ExplosiveAnimatorOverrides.unitypackage using Guid(0e6898b5fd47635478e4b51ea9e5a15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25298cff149e4bfa29a6650b4efc9276') in 0.011135 seconds 
+  Import took 0.015526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.276797 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Characters/Animators
+  artifactKey: Guid(ed56e2309aae1d7478354cbfb9a6b6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Characters/Animators using Guid(ed56e2309aae1d7478354cbfb9a6b6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889cb1413757d2fa17fbbae7118cba94') in 0.006998 seconds 
+  Import took 0.010226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.028340 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Characters/Animators/EmptyAnimationClips
+  artifactKey: Guid(2a9f0b4273dffd24ea0064d79edf8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Characters/Animators/EmptyAnimationClips using Guid(2a9f0b4273dffd24ea0064d79edf8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c3326ea780680ef668a48a7dbaf858') in 0.010010 seconds 
+  Import took 0.014895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.008112 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Armor.asset
+  artifactKey: Guid(2a10d70110a086c47b237d0ab51f1b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Armor.asset using Guid(2a10d70110a086c47b237d0ab51f1b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40a73f805338de44a8f03de210f799d') in 0.005408 seconds 
+  Import took 0.008714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Armor Penetration.asset
+  artifactKey: Guid(7f5486009b3079f49a76da8676cfac4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Armor Penetration.asset using Guid(7f5486009b3079f49a76da8676cfac4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5011b391ba8b98c6edeff2262354f164') in 0.005799 seconds 
+  Import took 0.009394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Chance to apply Knockback.asset
+  artifactKey: Guid(6ce92a60a60419f4aa0987b8c78d81f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Chance to apply Knockback.asset using Guid(6ce92a60a60419f4aa0987b8c78d81f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d8a12b83dcfc4874d2a99dad62d971') in 0.013510 seconds 
+  Import took 0.016509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Fire Penetration.asset
+  artifactKey: Guid(0740446442f9bea44af1a882c84ab5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Fire Penetration.asset using Guid(0740446442f9bea44af1a882c84ab5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e95787a4803024a7416ed0a7c37e79') in 0.006119 seconds 
+  Import took 0.009131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Cooldown Recovery Speed.asset
+  artifactKey: Guid(4e8fbe1b463c1894188c3056263c8a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Cooldown Recovery Speed.asset using Guid(4e8fbe1b463c1894188c3056263c8a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977fe72929ed56be0c3030b198f0a3a0') in 0.006237 seconds 
+  Import took 0.010233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Intellect.asset
+  artifactKey: Guid(9c12c74446ddc37458d38c7521524a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Intellect.asset using Guid(9c12c74446ddc37458d38c7521524a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a839f0aa33ba34d248f53cabf91d55') in 0.007212 seconds 
+  Import took 0.010075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Loot Chance.asset
+  artifactKey: Guid(26ad760f609e43b47b8dab2ef92c45d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Loot Chance.asset using Guid(26ad760f609e43b47b8dab2ef92c45d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4679f958390842c4e7acb45b6a7b6afe') in 0.005655 seconds 
+  Import took 0.008800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Health.asset
+  artifactKey: Guid(3ba412ea703bc2f4697ddcf06f7f13ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Health.asset using Guid(3ba412ea703bc2f4697ddcf06f7f13ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db7d1afb100a8e1d17d47b1ed32048a') in 0.006874 seconds 
+  Import took 0.010632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Fire Damage.asset
+  artifactKey: Guid(c137d02ad19cc9440b312f29325008fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Fire Damage.asset using Guid(c137d02ad19cc9440b312f29325008fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0544cf7f4e88ee12c862a40900f4accf') in 0.006578 seconds 
+  Import took 0.010613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Damage Taken.asset
+  artifactKey: Guid(9b16bc35c569d14409d33c753acd0070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Damage Taken.asset using Guid(9b16bc35c569d14409d33c753acd0070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01f5075c7c93ced22fb0e6c8dede617') in 0.005922 seconds 
+  Import took 0.009054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Energy.asset
+  artifactKey: Guid(4c6514ad02566de459909c0ef1145207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Energy.asset using Guid(4c6514ad02566de459909c0ef1145207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80925a095b140c9341b739e0c3208925') in 0.007849 seconds 
+  Import took 0.011094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Lifesteal.asset
+  artifactKey: Guid(c87d1afa2c79b954b9cdcbfea6e03dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Lifesteal.asset using Guid(c87d1afa2c79b954b9cdcbfea6e03dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd22bb4ea128366f8bd291bc8d53318') in 0.006230 seconds 
+  Import took 0.010072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Experience Bonus.asset
+  artifactKey: Guid(e8ed0922cb171a748b903eab0ce35fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Experience Bonus.asset using Guid(e8ed0922cb171a748b903eab0ce35fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f1b39bd9c83ec5f149662c44e8c8ce') in 0.005565 seconds 
+  Import took 0.009008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Health On Kill.asset
+  artifactKey: Guid(6ddaefc081904834c8c4f39c6002a959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Health On Kill.asset using Guid(6ddaefc081904834c8c4f39c6002a959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa985163f573c937ac7e909bb016c04') in 0.008021 seconds 
+  Import took 0.011088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Damage Dealt.asset
+  artifactKey: Guid(76d5654c148c1f342b49cd2d5bb7303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Damage Dealt.asset using Guid(76d5654c148c1f342b49cd2d5bb7303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb2ae6572a58e1243fbaa15850fb889') in 0.006226 seconds 
+  Import took 0.009735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Critical Hit Chance.asset
+  artifactKey: Guid(511769791b6b091478fa45ea608d5868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Critical Hit Chance.asset using Guid(511769791b6b091478fa45ea608d5868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046862e5db20d8c67b153cf5bd39d21e') in 0.006633 seconds 
+  Import took 0.009921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Chance to apply Poison.asset
+  artifactKey: Guid(a113b0f9c08152b4fa1b880ae733d2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Chance to apply Poison.asset using Guid(a113b0f9c08152b4fa1b880ae733d2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb64e251dca49a84a962242f3c65638f') in 0.008916 seconds 
+  Import took 0.012045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Cold Resistance.asset
+  artifactKey: Guid(0a2143abc21f04047b981c4b7426628b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Cold Resistance.asset using Guid(0a2143abc21f04047b981c4b7426628b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82340a9fd0b4eef3a587a1576b525763') in 0.006137 seconds 
+  Import took 0.009456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Cold Penetration.asset
+  artifactKey: Guid(2b3992074f33edd4db880daece2acdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Cold Penetration.asset using Guid(2b3992074f33edd4db880daece2acdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a2591594681545e89b7e2d696ecd59') in 0.006650 seconds 
+  Import took 0.009879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Heal Received.asset
+  artifactKey: Guid(fb120b9d265d3994d89f20a6a371a77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Heal Received.asset using Guid(fb120b9d265d3994d89f20a6a371a77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b06316b42aa62f04a0163b346cf478f') in 0.005665 seconds 
+  Import took 0.008921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Health On Hit.asset
+  artifactKey: Guid(d5f64b245f61cac419c8a7e2838477b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Health On Hit.asset using Guid(d5f64b245f61cac419c8a7e2838477b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e34b89b9b9083cc55129da1c041d717') in 0.006290 seconds 
+  Import took 0.010866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Cold Damage.asset
+  artifactKey: Guid(85a9d3ab88b0a314eb171ee25675b2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Cold Damage.asset using Guid(85a9d3ab88b0a314eb171ee25675b2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93f08e56f3b1be81758eccf8fdb49a5') in 0.007430 seconds 
+  Import took 0.010587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_CC Power.asset
+  artifactKey: Guid(31eddb42fa1763a4f8aaa936e839da82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_CC Power.asset using Guid(31eddb42fa1763a4f8aaa936e839da82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32dc27ccdad1cf8a786b70639e4e7e81') in 0.005516 seconds 
+  Import took 0.008377 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000146 seconds.
-  path: Assets/KinematicSoup/Editor
-  artifactKey: Guid(1b0a982c62353ef43a6ac31587e66b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KinematicSoup/Editor using Guid(1b0a982c62353ef43a6ac31587e66b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af39c91aacd94ba03046cd041b81130') in 0.005798 seconds 
-  Import took 0.008934 seconds .
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Fire Resistance.asset
+  artifactKey: Guid(92924701acc15da41b9dc216d74dbb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_Fire Resistance.asset using Guid(92924701acc15da41b9dc216d74dbb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2116fc50840b6190b14e115328ce13f4') in 0.006472 seconds 
+  Import took 0.009690 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/KinematicSoup/SceneFusion/ksCam.prefab
-  artifactKey: Guid(27899328724736747acbe9c2f50e4907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KinematicSoup/SceneFusion/ksCam.prefab using Guid(27899328724736747acbe9c2f50e4907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e0c9f031deb2cdd8b3ce73ca6b05fe') in 0.012385 seconds 
-  Import took 0.017227 seconds .
+  Time since last request: 0.000205 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_CC Resistance.asset
+  artifactKey: Guid(0b197feb460ca2947bd24c889544bde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Stats/RPG_STAT_CC Resistance.asset using Guid(0b197feb460ca2947bd24c889544bde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e90a15ced0fac3c144e2937ec64bf50') in 0.006718 seconds 
+  Import took 0.010609 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/KinematicSoup/SceneFusion/ksOculusLeft.prefab
-  artifactKey: Guid(3bbdda71f31e6e74991295d45337ee12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KinematicSoup/SceneFusion/ksOculusLeft.prefab using Guid(3bbdda71f31e6e74991295d45337ee12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e659f657219d6a8373cd3d0a484706') in 0.012345 seconds 
-  Import took 0.017585 seconds .
+  Time since last request: 141.622872 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5aa99e36510f23d626084d8be9669f') in 0.008733 seconds 
+  Import took 0.013426 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/KinematicSoup/SceneFusion/ksAvatar.prefab
-  artifactKey: Guid(2d7d0f1906163e44585d8228169e048e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KinematicSoup/SceneFusion/ksAvatar.prefab using Guid(2d7d0f1906163e44585d8228169e048e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eaeac704717ec497b068bd7473da733') in 0.034049 seconds 
-  Import took 0.036887 seconds .
+  Time since last request: 0.000805 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5aa99e36510f23d626084d8be9669f') in 0.002076 seconds 
+  Import took 0.005577 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.083746 seconds.
-  path: Assets/Blink/Art
-  artifactKey: Guid(28141a25955c79b41b752bd583ecf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art using Guid(28141a25955c79b41b752bd583ecf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf01b05ace50a098eb87642887621fa6') in 0.005222 seconds 
-  Import took 0.009319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001158 seconds.
-  path: Assets/Blink/Art
-  artifactKey: Guid(28141a25955c79b41b752bd583ecf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art using Guid(28141a25955c79b41b752bd583ecf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf01b05ace50a098eb87642887621fa6') in 0.001680 seconds 
-  Import took 0.004645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.209997 seconds.
-  path: Assets/Blink/Tools
-  artifactKey: Guid(226bebcab5e7775458a17faaf80134d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools using Guid(226bebcab5e7775458a17faaf80134d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1590ad5100636cd33da6ca05af56db75') in 0.011801 seconds 
-  Import took 0.020408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.509962 seconds.
-  path: Assets/Blink/Tools/RPGBuilder
-  artifactKey: Guid(6721fa9c0fbaa8049a3e19926a0804e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder using Guid(6721fa9c0fbaa8049a3e19926a0804e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f5d8f6596b45df52bcdc94232c0567') in 0.016318 seconds 
-  Import took 0.023523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.784992 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Art
-  artifactKey: Guid(4048118eef70e0c4fa6fa5af2a2f2904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Art using Guid(4048118eef70e0c4fa6fa5af2a2f2904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62225b476d25a1ded046d7f85d74adc') in 0.002903 seconds 
-  Import took 0.007396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.486935 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Characters
-  artifactKey: Guid(518d99a0cb80c57458986fa2647ba557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Characters using Guid(518d99a0cb80c57458986fa2647ba557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7d8739c21fc62d09834949bd124702') in 0.008375 seconds 
-  Import took 0.012992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023545 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Editor
-  artifactKey: Guid(043d34a077d94d94b9b5495c7a5f935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Editor using Guid(043d34a077d94d94b9b5495c7a5f935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f37cbb385beeec10c26fd373b50f80f') in 0.001713 seconds 
-  Import took 0.005185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028166 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Essentials
-  artifactKey: Guid(3d621460dea1a2d49a046ccb912811c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Essentials using Guid(3d621460dea1a2d49a046ccb912811c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9967b1b87c8921bd646d3ba42ae655a') in 0.005504 seconds 
-  Import took 0.008585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000591 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Essentials
-  artifactKey: Guid(3d621460dea1a2d49a046ccb912811c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Essentials using Guid(3d621460dea1a2d49a046ccb912811c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9967b1b87c8921bd646d3ba42ae655a') in 0.003439 seconds 
-  Import took 0.006672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019260 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/NPCs
-  artifactKey: Guid(14cb2b52567402644901acd5a130eb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/NPCs using Guid(14cb2b52567402644901acd5a130eb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ff577ee2ce82ce123d468a5d5fb3b3') in 0.005238 seconds 
-  Import took 0.008340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026862 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Prefabs
-  artifactKey: Guid(b620be2732c5f904baa70189205212fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Prefabs using Guid(b620be2732c5f904baa70189205212fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716c8e7575df2165006742ba38720eb6') in 0.004980 seconds 
-  Import took 0.008022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001082 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Prefabs
-  artifactKey: Guid(b620be2732c5f904baa70189205212fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Prefabs using Guid(b620be2732c5f904baa70189205212fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716c8e7575df2165006742ba38720eb6') in 0.002304 seconds 
-  Import took 0.006177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006528 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Resources
-  artifactKey: Guid(13cb3207ad90770408bc2d60b7597965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Resources using Guid(13cb3207ad90770408bc2d60b7597965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042f5db16ba7413061d5efc59ad6f1a7') in 0.007449 seconds 
-  Import took 0.010580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.237872 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Scenes
-  artifactKey: Guid(8ba74082354096e4b9a4fa39b3996a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Scenes using Guid(8ba74082354096e4b9a4fa39b3996a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da26978be5b14c60ffd2d0e265eef5b4') in 0.015867 seconds 
-  Import took 0.023312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.836356 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Scripts
-  artifactKey: Guid(cfb6d7a42251ab542ac6a35f558367ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Scripts using Guid(cfb6d7a42251ab542ac6a35f558367ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd125ce412ec12e1aadb92fae5f2c4b6') in 0.014136 seconds 
-  Import took 0.020418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.250806 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Scenes/RPGBDemoPostProcessing.asset
-  artifactKey: Guid(e4e6dff66aab10847816d0100e001903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Scenes/RPGBDemoPostProcessing.asset using Guid(e4e6dff66aab10847816d0100e001903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d56c1e012ba97f8b2e9033f5715da2d') in 0.010671 seconds 
-  Import took 0.014210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.418791 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu
-  artifactKey: Guid(133cc1b6c72f8d94ca7c000e4647da50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu using Guid(133cc1b6c72f8d94ca7c000e4647da50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14617beeb0818079a35626cda7ea7cf0') in 0.008304 seconds 
-  Import took 0.013711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.500414 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Scenes/RPGBuilderDemo
-  artifactKey: Guid(ce688a2ddc00b8b47a97c209825992bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Scenes/RPGBuilderDemo using Guid(ce688a2ddc00b8b47a97c209825992bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba3c79e211f9e1730035976dbf69be7') in 0.009708 seconds 
-  Import took 0.014630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018254 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Scenes/TerrainData
-  artifactKey: Guid(02224c475337a4c4aac3af78afda31d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Scenes/TerrainData using Guid(02224c475337a4c4aac3af78afda31d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19895ba6a968653c03939439b6889c8') in 0.004974 seconds 
-  Import took 0.007929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.214082 seconds.
-  path: Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu.unity
-  artifactKey: Guid(633760486851e0444bb3c9f6ad7e1fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu.unity using Guid(633760486851e0444bb3c9f6ad7e1fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd851b3b2547dc3fc18e200f23c57568') in 0.011554 seconds 
-  Import took 0.016746 seconds .
+  Time since last request: 0.580401 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a8cd0d128e2de1afc31d38fd538062') in 0.015318 seconds 
+  Import took 0.019329 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004545 seconds.
+Registered in 0.004741 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
@@ -419,42 +792,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.203 seconds
+- Completed reload, in  1.285 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1204ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1286ms)
+		BeginReloadAssembly (179ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1023ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (1039ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (296ms)
+			SetupTypeCache (320ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (490ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (478ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (306ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.7 MB.
-System memory in use after: 101.1 MB.
+Unloading 1700 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.7 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2210.
-Total: 2.930300 ms (FindLiveObjects: 0.177600 ms CreateObjectMapping: 0.057300 ms MarkObjects: 2.407400 ms  DeleteObjects: 0.286900 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 6.045700 ms (FindLiveObjects: 0.500100 ms CreateObjectMapping: 0.203600 ms MarkObjects: 5.300000 ms  DeleteObjects: 0.040100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
