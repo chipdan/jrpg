@@ -53,27 +53,28 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\Ferr2D\Editor\sfFerr2DAdaptorEditor.cs" />
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\Ferr2D\Editor\Ferr2DExtension.cs" />
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\TerrainComposer2\Editor\TerrainComposer2Extension.cs" />
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\Cinemachine\Editor\CinemachineExtension.cs" />
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\MicroSplat\Editor\MicroSplatExtension.cs" />
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\PlayMaker\Editor\PlayMakerExtension.cs" />
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\ProBuilder\Editor\ProBuilderExtension.cs" />
-    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\EditorVR\Editor\EditorVRExtension.cs" />
-    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\NPCSpawnerEditor.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\RPGBuilderWindow.cs" />
+    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\MicroSplat\Editor\MicroSplatExtension.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\RPGBCharacterControllerEssentialsEditor.cs" />
-    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\PlayerAppearanceHandlerEditor.cs" />
-    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\RPGBAdvancedDialogueOptionsNodeSelector.cs" />
-    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\RPGBAdvancedDialogueOptionsWindow.cs" />
+    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\Cinemachine\Editor\CinemachineExtension.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\RPGBuilderEditorModuleFieldHandlerWindow.cs" />
-    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\InteractiveNodeEditor.cs" />
+    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\RPGDialogueTextNodeEditor.cs" />
+    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\NPCSpawnerEditor.cs" />
+    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\PlayerAppearanceHandlerEditor.cs" />
+    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\Ferr2D\Editor\Ferr2DExtension.cs" />
+    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\EditorVR\Editor\EditorVRExtension.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\NodeSocketsEditor.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\RPGBuilderThirdPersonControllerEssentialsEditor.cs" />
-    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\Blink_EditorSceneLoader.cs" />
-    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\RPGDialogueTextNodeEditor.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\CombatNodeEditor.cs" />
+    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\RPGBAdvancedDialogueOptionsNodeSelector.cs" />
+    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\RPGBAdvancedDialogueOptionsWindow.cs" />
+    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\TerrainComposer2\Editor\TerrainComposer2Extension.cs" />
+    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\ProBuilder\Editor\ProBuilderExtension.cs" />
+    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\InteractiveNodeEditor.cs" />
+    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\PlayMaker\Editor\PlayMakerExtension.cs" />
+    <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\Ferr2D\Editor\sfFerr2DAdaptorEditor.cs" />
+    <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\Blink_EditorSceneLoader.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\Editor\GesturePatternEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\KinematicSoup\Editor\KSCommon-Editor.dll" />
@@ -317,29 +318,29 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="KSCommon-Editor">
+      <HintPath>Assets\KinematicSoup\Editor\KSCommon-Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="KSCommon-Editor">
-      <HintPath>Assets\KinematicSoup\Editor\KSCommon-Editor.dll</HintPath>
-    </Reference>
     <Reference Include="KSSceneFusion">
       <HintPath>Assets\KinematicSoup\SceneFusion\KSSceneFusion.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="KSSceneFusion-Editor">
       <HintPath>Assets\KinematicSoup\SceneFusion\Editor\KSSceneFusion-Editor.dll</HintPath>
     </Reference>
     <Reference Include="KSCommon">
       <HintPath>Assets\KinematicSoup\KSCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -740,13 +741,13 @@
       <Project>{34E33A9C-416B-39BC-ADA0-4BC6DACE790E}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="XNode.csproj">
-      <Project>{07B71459-C104-9DD3-F6A2-558061E94559}</Project>
-      <Name>XNode</Name>
-    </ProjectReference>
     <ProjectReference Include="XNodeEditor.csproj">
       <Project>{75BBED50-4838-D317-370D-A4B6E5B4B4F3}</Project>
       <Name>XNodeEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="XNode.csproj">
+      <Project>{07B71459-C104-9DD3-F6A2-558061E94559}</Project>
+      <Name>XNode</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

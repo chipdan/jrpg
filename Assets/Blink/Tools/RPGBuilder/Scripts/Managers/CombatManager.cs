@@ -4716,5 +4716,20 @@ namespace BLINK.RPGBuilder.Managers
             combatNode.InitializeCombatNode();
             return combatNode;
         }
+
+        internal void InitAbility(object caster, RPGAbility rPGAbility, bool v)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void InitAbility(RPGAbility rPGAbility, bool v)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void InitAbility(CombatNode combatNode, object caster, RPGAbility rPGAbility, bool v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
