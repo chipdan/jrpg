@@ -62,6 +62,7 @@
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\NPCSpawnerEditor.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\PlayerAppearanceHandlerEditor.cs" />
     <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\Ferr2D\Editor\Ferr2DExtension.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\Editor\GesturePatternEditor.cs" />
     <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\EditorVR\Editor\EditorVRExtension.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\NodeSocketsEditor.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\RPGBuilderThirdPersonControllerEssentialsEditor.cs" />
@@ -74,7 +75,6 @@
     <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\PlayMaker\Editor\PlayMakerExtension.cs" />
     <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\Ferr2D\Editor\sfFerr2DAdaptorEditor.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Editor\Blink_EditorSceneLoader.cs" />
-    <Compile Include="Assets\GestureRecognizer\Scripts\Editor\GesturePatternEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\KinematicSoup\Editor\KSCommon-Editor.dll" />

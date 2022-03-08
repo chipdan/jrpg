@@ -93,9 +93,11 @@
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\TreesDisplayManager.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Interfaces\IPlayerInteractable.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\LogicMono\GroundIndicator.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\GesturePatternDraw.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGWorldPosition.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\RDR\Particles\Fantasy_Portal\Script\NextPrefab.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\RequirementsManager.cs" />
+    <Compile Include="Assets\GestureRecognizer\Example\GestureOptions.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DataHandling\AssetIDHandler.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\SkillBookDisplayManager.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\NodeStateSlot.cs" />
@@ -105,6 +107,7 @@
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\FactionManager.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGLevelsTemplate.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\GameOptionsDisplayManager.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\Recognizer.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\FactionSlotDataHolder.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Utility\UILineRenderer.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Resources\EditorData\RPGBuilderEditorDATA.cs" />
@@ -115,6 +118,7 @@
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\QuestManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\SocketingPanelDisplayManager.cs" />
+    <Compile Include="Assets\GestureRecognizer\Example\ExampleGestureHandler.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\CraftingRecipeSlotHolder.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\SpellbookDisplayManager.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\CraftingPanelDisplayManager.cs" />
@@ -131,6 +135,7 @@
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGGameScene.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Interfaces\IDisplayPanel.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\DrawDetector.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\CrosshairDisplayManager.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGSpellbook.cs" />
@@ -224,6 +229,7 @@
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\EnchantCostSlotHolder.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\CharacterSlotHolder.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\GestureData.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\RPGBAIAgent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\ItemTooltip.cs" />
@@ -255,6 +261,7 @@
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGCraftingRecipe.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\GabrielAguiarProductions\Scripts\ParticleSystemController\ParticleSystemControllerEditor.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DataHandling\DataSavingSystem.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\GesturePattern.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\EnchantingManager.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\FPSCounter.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGQuest.cs" />
@@ -274,6 +281,7 @@
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\ItemSlotHolder.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\UILineRenderer.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\ThirdPerson\RPGBThirdPersonController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
@@ -293,6 +301,7 @@
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\GatheringManager.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\LogicMono\RPGBuilderEssentials.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Nodes\RPGDialogueBaseNode.cs" />
+    <Compile Include="Assets\scripts\AbilityCast.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\ShapeshiftSlot.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\ThirdPerson\SpringArm.cs" />
@@ -308,15 +317,6 @@
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGStat.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\QuestObjectiveTextSlot.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\PlayerAppearanceHandler.cs" />
-    <Compile Include="Assets\GestureRecognizer\Scripts\Recognizer.cs" />
-    <Compile Include="Assets\GestureRecognizer\Example\GestureOptions.cs" />
-    <Compile Include="Assets\GestureRecognizer\Example\ExampleGestureHandler.cs" />
-    <Compile Include="Assets\GestureRecognizer\Scripts\GesturePattern.cs" />
-    <Compile Include="Assets\GestureRecognizer\Scripts\UILineRenderer.cs" />
-    <Compile Include="Assets\GestureRecognizer\Scripts\DrawDetector.cs" />
-    <Compile Include="Assets\GestureRecognizer\Scripts\GesturePatternDraw.cs" />
-    <Compile Include="Assets\GestureRecognizer\Scripts\GestureData.cs" />
-    <Compile Include="Assets\scripts\AbilityCast.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\KinematicSoup\SceneFusion\Shaders\BillboardCutout.shader" />

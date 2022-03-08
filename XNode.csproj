@@ -55,10 +55,10 @@
   <ItemGroup>
     <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Attributes\NodeEnum.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\NodeGraph.cs" />
+    <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\NodePort.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\NodeDataCache.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\SceneGraph.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Node.cs" />
-    <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\NodePort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\XNode.asmdef" />
@@ -301,29 +301,29 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="KSCommon-Editor">
+      <HintPath>Assets\KinematicSoup\Editor\KSCommon-Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="KSCommon-Editor">
-      <HintPath>Assets\KinematicSoup\Editor\KSCommon-Editor.dll</HintPath>
-    </Reference>
     <Reference Include="KSSceneFusion">
       <HintPath>Assets\KinematicSoup\SceneFusion\KSSceneFusion.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="KSSceneFusion-Editor">
       <HintPath>Assets\KinematicSoup\SceneFusion\Editor\KSSceneFusion-Editor.dll</HintPath>
     </Reference>
     <Reference Include="KSCommon">
       <HintPath>Assets\KinematicSoup\KSCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

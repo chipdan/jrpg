@@ -15,7 +15,7 @@ MonoBehaviour:
   automaticSave: 1
   automaticSaveDelay: 5
   automaticSaveOnQuit: 1
-  clickToLoadScene: 1
+  clickToLoadScene: 0
   DelayAfterSceneLoad: 0
   LoadingScreenEndDelay: 0
   enableDevPanel: 1
@@ -23,7 +23,7 @@ MonoBehaviour:
   mainMenuSceneName: MainMenu
   mainMenuLoadingName: Main Menu
   mainMenuLoadingDescription: 
-  useOldController: 0
+  useOldController: 1
   dialogueKeywordsList:
   - '[player_level]'
   - '[player_name]'
