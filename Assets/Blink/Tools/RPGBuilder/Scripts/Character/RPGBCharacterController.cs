@@ -250,7 +250,6 @@ namespace BLINK.RPGBuilder.Character
 
             if (mouseButtonDown) return;
             Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
             mouseLook = false;
 
             if (!cursorNeedReset) return;
@@ -269,18 +268,7 @@ namespace BLINK.RPGBuilder.Character
             AdjustCamera();
 
             #region ThirdPerson
-            if (CurrentController == ControllerType.ThirdPerson)
-            {
-                if (Input.GetKeyDown(RPGBuilderUtilities.GetCurrentKeyByActionKeyName("Jump")) && isGrounded)
-                {
-                    playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * (Physics.gravity.y * gravityMod));
-                    anim.SetTrigger("Jump");
-                }
-
-                playerVelocity.y += Physics.gravity.y * Time.deltaTime;
-                if (isGrounded && playerVelocity.y < 0 && anim.GetFloat("GroundDistance") < 1.1f) playerVelocity.y = 0f;
-                characterController.Move(playerVelocity * Time.deltaTime);
-            }
+           
 
             if (CurrentController != ControllerType.ThirdPerson) return;
             mainCam.transform.LookAt(tpRef.parent);
@@ -599,7 +587,6 @@ namespace BLINK.RPGBuilder.Character
         {
             if (ClickToRotate)
             {
-                Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
                 headOffset.x = 0;
                 headOffset.z = 0;
@@ -608,7 +595,6 @@ namespace BLINK.RPGBuilder.Character
             }
             else
             {
-                Cursor.visible = false;
                 Cursor.lockState = CursorLockMode.Locked;
                 headOffset.x = headOffsetCache.x;
                 headOffset.z = headOffsetCache.z;
@@ -667,8 +653,6 @@ namespace BLINK.RPGBuilder.Character
 
             if (!(Vector3.Distance(Input.mousePosition, mousePosition) > 5)) return;
             Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-            cursorNeedReset = true;
         }
         
         

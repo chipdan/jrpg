@@ -437,8 +437,6 @@ namespace BLINK.Controller
         {
             if (playerIsDead) return;
             controller.cameraCanRotate = state;
-            Cursor.visible = !state;
-            Cursor.lockState = state ? CursorLockMode.Locked : CursorLockMode.None;
         }
 
         public override void ToggleCameraMouseLook()
@@ -455,12 +453,12 @@ namespace BLINK.Controller
 
         public override void StartSprint()
         {
-            controller.isSprinting = true;
+        //   controller.isSprinting = true;
             
         }
         public override void EndSprint()
         {
-            controller.isSprinting = false;
+        //    controller.isSprinting = false;
             isResetingSprintCamFOV = true;
         }
 

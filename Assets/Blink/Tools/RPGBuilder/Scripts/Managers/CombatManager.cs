@@ -930,7 +930,7 @@ namespace BLINK.RPGBuilder.Managers
             if (rankREF.extraAbilityExecuted != null) InitExtraAbility(nodeCombatInfo, rankREF.extraAbilityExecuted);
         }
 
-        private bool checkCooldown(CombatNode nodeCombatInfo, RPGAbility thisAbility)
+        public bool checkCooldown(CombatNode nodeCombatInfo, RPGAbility thisAbility)
         {
             if (nodeCombatInfo.nodeType == CombatNode.COMBAT_NODE_TYPE.player)
                 return CharacterData.Instance.isAbilityCDReady(thisAbility);

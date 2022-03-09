@@ -151,7 +151,6 @@ namespace BLINK.RPGBuilder.LogicMono
 
             CursorManager.Instance.ResetCursor();
             Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
 
             QuestTrackerDisplayManager.Instance.trackedQuest.Clear();
         }

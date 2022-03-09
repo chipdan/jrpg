@@ -17,16 +17,16 @@ MonoBehaviour:
   _fileName: RPG_ABILITY_Fireball
   displayName: Fireball
   icon: {fileID: 21300000, guid: d23c70ce4c06a2641bc79cd36654bd40, type: 3}
-  learnedByDefault: 1
+  learnedByDefault: 0
   abilityType: 0
   ranks:
   - ShowedInEditor: 1
     unlockCost: 0
-    activationType: 2
+    activationType: 1
     castTime: 0.8
     castInRun: 1
     castBarVisible: 1
-    faceCursorWhileCasting: 1
+    faceCursorWhileCasting: 0
     faceCursorWhenOnCastStart: 1
     faceCursorWhenOnCastEnd: 1
     canBeUsedStunned: 1
@@ -35,16 +35,24 @@ MonoBehaviour:
     cancelStealth: 1
     effectsRequirements: []
     useRequirements: []
-    targetType: 2
+    targetType: 4
     HitSettings:
-    - alignment: 0
+    - alignment: 2
       hitPlayer: 1
-      hitAlly: 1
+      hitAlly: 0
       hitNeutral: 1
       hitEnemy: 1
-      hitSelf: 1
-      hitPet: 1
-      hitOwner: 1
+      hitSelf: 0
+      hitPet: 0
+      hitOwner: 0
+    - alignment: 0
+      hitPlayer: 0
+      hitAlly: 0
+      hitNeutral: 1
+      hitEnemy: 1
+      hitSelf: 0
+      hitPet: 0
+      hitOwner: 0
     isToggle: 0
     isToggleCostOnTrigger: 0
     toggledTriggerInterval: 0
@@ -79,7 +87,7 @@ MonoBehaviour:
     isProjectileNearbyUnit: 0
     projectileDestroyedByEnvironment: 1
     projectileAffectedByGravity: 0
-    projectileShootOnClickPosition: 0
+    projectileShootOnClickPosition: 1
     mustLookAtTarget: 1
     squareWidth: 0
     squareLength: 0
@@ -104,7 +112,7 @@ MonoBehaviour:
     colliderRadius: 0.75
     colliderHeight: 0
     groundVisualEffect: {fileID: 0}
-    effectPositionOffset: {x: 0, y: 1, z: 0}
+    effectPositionOffset: {x: 0, y: 1, z: 1}
     groundVisualEffectDuration: 5
     hitEffectUseSocket: 0
     hitEffect: {fileID: 3592326399059066619, guid: 989e01cbb1f6fb942987d84baf583e8c, type: 3}
@@ -116,16 +124,16 @@ MonoBehaviour:
     groundLeapDuration: 0
     groundLeapHeight: 0
     groundLeapSpeed: 0
-    cooldown: 1.35
+    cooldown: 3
     isGCD: 1
     startCDOnActivate: 1
-    CanUseDuringGCD: 0
+    CanUseDuringGCD: 1
     isSharingCooldown: 0
-    cooldownTag: 
+    cooldownTag: Potions
     effectsApplied:
-    - effectID: 48
+    - effectID: 22
       chance: 100
-      effectREF: {fileID: 11400000, guid: 2adb11fa673b7214280e173651c05a38, type: 2}
+      effectREF: {fileID: 11400000, guid: 19b747d0f39e0e841b690ca91d2a0f75, type: 2}
       effectRank: 0
       target: 0
       isSpread: 0
@@ -139,7 +147,7 @@ MonoBehaviour:
       SocketName: Projectile1
       UseNodeSocket: 1
       ParentedToCaster: 1
-      Sound: {fileID: 0}
+      Sound: {fileID: 8300000, guid: bc8b194dfa0e6224281972ff0cb103ce, type: 3}
       SoundParentedToEffect: 0
       positionOffset: {x: 0, y: 0, z: 0}
       effectScale: {x: 0.5, y: 0.5, z: 0.5}

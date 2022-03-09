@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\BossUISlotHolder.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGNpc.cs" />
+    <Compile Include="Assets\scripts\CameraController.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGSkill.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGCraftingStation.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\LootBagHolder.cs" />

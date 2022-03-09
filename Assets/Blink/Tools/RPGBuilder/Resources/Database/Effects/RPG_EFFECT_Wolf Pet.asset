@@ -68,9 +68,9 @@ MonoBehaviour:
     lootTableID: -1
     petType: 0
     petNPCDataID: 2
-    petDuration: 600
+    petDuration: 10
     petSPawnCount: 1
-    petScaleWithCharacter: 1
+    petScaleWithCharacter: 0
     knockbackDistance: 0
     motionDistance: 5
     motionSpeed: 0.5
