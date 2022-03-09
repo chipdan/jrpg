@@ -41,7 +41,7 @@ MonoBehaviour:
       itemRequiredCount: 0
       consumeItem: 0
       weaponRequired: 
-      useCost: 1
+      useCost: 10
       statCostID: 2
       statCostREF: {fileID: 11400000, guid: 4c6514ad02566de459909c0ef1145207, type: 2}
       costType: 1

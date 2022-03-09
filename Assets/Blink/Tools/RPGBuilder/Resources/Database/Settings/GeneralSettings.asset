@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54d60ae3901e6644b9d039bb9fdefeeb, type: 3}
   m_Name: GeneralSettings
   m_EditorClassIdentifier: 
-  automaticSave: 1
+  automaticSave: 0
   automaticSaveDelay: 5
-  automaticSaveOnQuit: 1
+  automaticSaveOnQuit: 0
   clickToLoadScene: 0
   DelayAfterSceneLoad: 0
   LoadingScreenEndDelay: 0
@@ -23,7 +23,7 @@ MonoBehaviour:
   mainMenuSceneName: MainMenu
   mainMenuLoadingName: Main Menu
   mainMenuLoadingDescription: 
-  useOldController: 1
+  useOldController: 0
   dialogueKeywordsList:
   - '[player_level]'
   - '[player_name]'
