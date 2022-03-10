@@ -256,6 +256,7 @@
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\DevUIManager.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\LogicMono\ProjectileSlowZone.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGBGameActions.cs" />
+    <Compile Include="Assets\scripts\Movment.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\DevStatSlotHolder.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGGearSet.cs" />
@@ -318,7 +319,7 @@
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGStat.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\QuestObjectiveTextSlot.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\PlayerAppearanceHandler.cs" />
-    <Compile Include="Assets\scripts\Movment.cs" />
+    <Compile Include="Assets\scripts\CheckMobs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\KinematicSoup\SceneFusion\Shaders\BillboardCutout.shader" />

@@ -24,8 +24,7 @@ MonoBehaviour:
   slotType: TWO HAND
   rarity: Common
   itemModelName: 
-  weaponModel: {fileID: 4417435450986619218, guid: 0d0ae09fa98635e4e8435fc1a1fc72c7,
-    type: 3}
+  weaponModel: {fileID: 4417435450986619218, guid: 0d0ae09fa98635e4e8435fc1a1fc72c7, type: 3}
   modelMaterial: {fileID: 0}
   armorMesh: {fileID: 0}
   armorPieceType: 0
@@ -126,7 +125,7 @@ MonoBehaviour:
     target: 0
     isConsumed: 0
   actionAbilities:
-  - keyType: 1
+  - keyType: 0
     key: 0
     actionKeyName: ACTION_ABILITY_1
     abilityREF: {fileID: 0}

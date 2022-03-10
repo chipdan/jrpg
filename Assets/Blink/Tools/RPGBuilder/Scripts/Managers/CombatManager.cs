@@ -1569,9 +1569,7 @@ namespace BLINK.RPGBuilder.Managers
                 case RPGAbility.AbilityType.Normal:
                     StartCooldown(casterNode, abSlotIndex, rankREF, ability.ID);
                     break;
-                case RPGAbility.AbilityType.PlayerAutoAttack:
-                    playerCombatNode.InitAACooldown(getAutoAttackCD());
-                    break;
+                
                 case RPGAbility.AbilityType.PlayerActionAbility:
                     playerCombatNode.InitActionAbilityCooldown(ability.ID,
                         rankREF.cooldown);

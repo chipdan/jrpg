@@ -55,17 +55,7 @@ MonoBehaviour:
     itemREF: {fileID: 11400000, guid: 90230dd2d2a502d4ca1afbfebf4b5e65, type: 2}
     count: 1
     equipped: 1
-  actionAbilities:
-  - keyType: 1
-    key: 0
-    actionKeyName: DODGE_ROLL
-    abilityREF: {fileID: 0}
-    abilityID: 20
-  - keyType: 1
-    key: 0
-    actionKeyName: ACTIVE_BLOCKING
-    abilityREF: {fileID: 0}
-    abilityID: 8
+  actionAbilities: []
   allocationStatPoints: 10
   allocatedStatsEntries:
   - statREF: {fileID: 11400000, guid: 3ba412ea703bc2f4697ddcf06f7f13ec, type: 2}
