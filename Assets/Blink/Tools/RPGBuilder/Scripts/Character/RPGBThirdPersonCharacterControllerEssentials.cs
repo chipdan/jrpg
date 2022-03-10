@@ -223,19 +223,8 @@ namespace BLINK.Controller
         public bool isAimingTransition;
         protected override void SetCameraAiming(bool isAiming)
         {
-            if (CombatManager.playerCombatNode.appearanceREF.isShapeshifted &&
-                !RPGBuilderUtilities.canActiveShapeshiftCameraAim(CombatManager.playerCombatNode)) return;
-            controller.CameraSettings.isAiming = isAiming;
-            controller.RotationSettings.UseControlRotation = isAiming;
-            controller.RotationSettings.OrientRotationToMovement = !isAiming;
-            isAimingTransition = true;
-            
-            anim.SetBool("isAiming", isAiming);
-            
-            if (isAiming)
-                CrosshairDisplayManager.Instance.ShowCrosshair();
-            else
-                CrosshairDisplayManager.Instance.HideCrosshair();
+
+           
         }
 
         /*

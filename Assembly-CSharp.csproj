@@ -318,6 +318,7 @@
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGStat.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\QuestObjectiveTextSlot.cs" />
     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\PlayerAppearanceHandler.cs" />
+    <Compile Include="Assets\scripts\Movment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\KinematicSoup\SceneFusion\Shaders\BillboardCutout.shader" />

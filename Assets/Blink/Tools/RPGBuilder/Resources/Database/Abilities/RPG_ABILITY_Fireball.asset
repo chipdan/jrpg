@@ -147,7 +147,7 @@ MonoBehaviour:
       SocketName: Projectile1
       UseNodeSocket: 1
       ParentedToCaster: 1
-      Sound: {fileID: 8300000, guid: bc8b194dfa0e6224281972ff0cb103ce, type: 3}
+      Sound: {fileID: 0}
       SoundParentedToEffect: 0
       positionOffset: {x: 0, y: 0, z: 0}
       effectScale: {x: 0.5, y: 0.5, z: 0.5}
