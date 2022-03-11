@@ -8249,7 +8249,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ThirdPersonController: {fileID: 8822907306458960547}
   cube: {fileID: 5356479700225781784}
+  obj: {fileID: 0}
   controller_player: {fileID: 6373494219852488075}
+  move: {fileID: 0}
+  agent_player: {fileID: 3452126319153391032}
 --- !u!1 &5373537791480304297
 GameObject:
   m_ObjectHideFlags: 0
@@ -9294,6 +9297,7 @@ MonoBehaviour:
   controller_player: {fileID: 0}
   agent_player: {fileID: 0}
   player: {fileID: 0}
+  move_point: {fileID: 0}
   speed: 1
   rot: 0
   cube: {fileID: 5356479700225781784}

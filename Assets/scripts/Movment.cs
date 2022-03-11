@@ -12,6 +12,7 @@ namespace BLINK.Controller
         public CharacterController controller_player;
         public NavMeshAgent agent_player;
         public Transform player;
+        public GameObject move_point;
         public float speed = 1f;
         [SerializeField] public int rot = 0;
         [SerializeField] public GameObject cube;
@@ -30,6 +31,7 @@ namespace BLINK.Controller
             agent.destination = goal.position;
             if (rot == 1)
             {
+                
                 player.rotation = Quaternion.Euler(0, 180, 0);
                 //Debug.Log(player.eulerAngles.y);
                 if (player.eulerAngles.y == 180)
@@ -46,13 +48,14 @@ namespace BLINK.Controller
             {
                 controller_player.enabled = false;
                 agent_player.enabled = true;
+                move_point = goal.gameObject;
             }
             else if (other.gameObject.tag == "end_move")
             {
-                agent_player.enabled = false;
-                controller_player.enabled = true;
                 cube.SetActive(true);
                 rot = 1;
+                controller_player.enabled = true;
+                agent_player.enabled = false;
             }
         }
 

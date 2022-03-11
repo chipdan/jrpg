@@ -28,10 +28,10 @@ public class AbilityCast : MonoBehaviour
             if (RPGBuilderUtilities.isAbilityKnown(abilityID[ID]))
             {
                 Debug.Log("fireball");
-                if (cooldown[0] == 0)
+                if (cooldown[ID] == 0)
                 {
                     UseAbility();
-                    cooldown[0] = 0;
+                    cooldown[ID] = 3;
                 }
                 GetComponent<ExampleGestureHandler>().ID_Draw = null;
             }
@@ -39,32 +39,32 @@ public class AbilityCast : MonoBehaviour
                 GetComponent<ExampleGestureHandler>().ID_Draw = null;
         }
 
-        if (GetComponent<ExampleGestureHandler>().ID_Draw == "heart")
+        if (GetComponent<ExampleGestureHandler>().ID_Draw == "horizontal")  
         {
             ID = 1;
             if (RPGBuilderUtilities.isAbilityKnown(abilityID[ID]))
             {
                 Debug.Log("coldbolt");
-                if (cooldown[0] == 0)
+                if (cooldown[ID] == 0)
                 {
                     UseAbility();
-                    cooldown[0] = 5;
+                    cooldown[ID] = 5;
                 }
                 GetComponent<ExampleGestureHandler>().ID_Draw = null;
             }
             else
                 GetComponent<ExampleGestureHandler>().ID_Draw = null;
         }
-        if (GetComponent<ExampleGestureHandler>().ID_Draw == "horizontal")
+        if (GetComponent<ExampleGestureHandler>().ID_Draw == "heart")
         {
             ID = 2;
             if (RPGBuilderUtilities.isAbilityKnown(abilityID[ID]))
             {
                 Debug.Log("barier");
-                if (cooldown[0] == 0)
+                if (cooldown[ID] == 0)
                 {
                     UseAbility();
-                    cooldown[0] = 5;
+                    cooldown[ID] = 5;
                 }
                 GetComponent<ExampleGestureHandler>().ID_Draw = null;
             }

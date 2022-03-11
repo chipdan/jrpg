@@ -47,7 +47,7 @@ MonoBehaviour:
       costType: 1
       inCombat: 0
       stealthed: 0
-    targetType: 4
+    targetType: 8
     HitSettings:
     - alignment: 0
       hitPlayer: 0
@@ -70,7 +70,7 @@ MonoBehaviour:
     toggledTriggerInterval: 0
     MaxUnitHit: 1
     minRange: 0
-    maxRange: 0
+    maxRange: 100
     standTimeDuration: 0
     canRotateInStandTime: 0
     castSpeedSlowAmount: 0.25

@@ -2,21 +2,23 @@ using BLINK.Controller;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 namespace BLINK.RPGBuilder.AI
 {
     public class CheckMobs : MonoBehaviour
     {
-        GameObject obj;
+        
         [SerializeField] public RPGBThirdPersonController ThirdPersonController;
         [SerializeField] public GameObject cube;
-
+        [SerializeField] public GameObject obj;
         public CharacterController controller_player;
-        // Start is called before the first frame update
+        [SerializeField]public GameObject move;
+        public NavMeshAgent agent_player;
 
         private void Start()
         {
+            
         }
-        // Update is called once per frame
         void Update()
         {
             if (obj.GetComponent<CapsuleCollider>() == null)
@@ -24,20 +26,21 @@ namespace BLINK.RPGBuilder.AI
                 ThirdPersonController.RotationSettings.OrientRotationToMovement = true;
                 controller_player.enabled = true;
                 cube.SetActive(false);
+                Debug.Log("Мобов нет");
+                Destroy(move);
             }
+
         }
        
-        private void OnTriggerEnter(Collider other)
+        private void OnTriggerStay(Collider other)
         {
-            if (other.GetComponent<CapsuleCollider>() != null)
-            {
-                obj = other.gameObject;
-                ThirdPersonController.RotationSettings.OrientRotationToMovement = false;
-                controller_player.enabled = false;
-
-
+                if (other.GetComponent<CapsuleCollider>() != null)
+                {
+                    obj = other.gameObject;
+                    ThirdPersonController.RotationSettings.OrientRotationToMovement = false;
+                    agent_player.enabled = false;
             }
+            Debug.Log("Мобы есть");
         }
-   
     }
 }

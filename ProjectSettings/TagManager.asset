@@ -11,6 +11,7 @@ TagManager:
   - ring
   - move
   - end_move
+  - off_navmesh
   layers:
   - Default
   - TransparentFX
