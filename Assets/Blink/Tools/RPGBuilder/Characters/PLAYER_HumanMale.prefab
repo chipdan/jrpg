@@ -9299,6 +9299,8 @@ MonoBehaviour:
   player: {fileID: 0}
   move_point: {fileID: 0}
   speed: 1
+  anim: {fileID: 0}
+  a: {fileID: 7275300753899294233, guid: ab54d1b34370dbe4d896efebb96535ef, type: 3}
   rot: 0
   cube: {fileID: 5356479700225781784}
 --- !u!195 &3452126319153391032

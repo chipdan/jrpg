@@ -39,6 +39,7 @@ namespace BLINK.RPGBuilder.AI
                     obj = other.gameObject;
                     ThirdPersonController.RotationSettings.OrientRotationToMovement = false;
                     agent_player.enabled = false;
+                    controller_player.enabled = false;
             }
             Debug.Log("Мобы есть");
         }

@@ -12,6 +12,7 @@ TagManager:
   - move
   - end_move
   - off_navmesh
+  - Electro
   layers:
   - Default
   - TransparentFX

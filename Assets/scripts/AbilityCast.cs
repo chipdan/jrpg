@@ -39,7 +39,7 @@ public class AbilityCast : MonoBehaviour
                 GetComponent<ExampleGestureHandler>().ID_Draw = null;
         }
 
-        if (GetComponent<ExampleGestureHandler>().ID_Draw == "horizontal")  
+        if (GetComponent<ExampleGestureHandler>().ID_Draw == "horizontal")
         {
             ID = 1;
             if (RPGBuilderUtilities.isAbilityKnown(abilityID[ID]))
@@ -55,6 +55,7 @@ public class AbilityCast : MonoBehaviour
             else
                 GetComponent<ExampleGestureHandler>().ID_Draw = null;
         }
+       
         if (GetComponent<ExampleGestureHandler>().ID_Draw == "heart")
         {
             ID = 2;
@@ -71,6 +72,23 @@ public class AbilityCast : MonoBehaviour
             else
                 GetComponent<ExampleGestureHandler>().ID_Draw = null;
         }
+        if (GetComponent<ExampleGestureHandler>().ID_Draw == "bolt")
+        {
+            ID = 3;
+            if (RPGBuilderUtilities.isAbilityKnown(abilityID[ID]))
+            {
+                Debug.Log("coldbolt");
+                if (cooldown[ID] == 0)
+                {
+                    UseAbility();
+                    cooldown[ID] = 5;
+                }
+                GetComponent<ExampleGestureHandler>().ID_Draw = null;
+            }
+            else
+                GetComponent<ExampleGestureHandler>().ID_Draw = null;
+        }
+
 
         for (int cd_id = 0; cd_id < abilityID.Length + 1; cd_id++)
             if (cooldown[cd_id] > 0)

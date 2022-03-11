@@ -28,10 +28,10 @@ MonoBehaviour:
   dialogueREF: {fileID: 0}
   questGiven: []
   questCompleted: []
-  AggroRange: 150
-  distanceFromTarget: 150
-  distanceFromOwner: 150
-  DistanceToTargetReset: 40
+  AggroRange: 20
+  distanceFromTarget: 20
+  distanceFromOwner: 20
+  DistanceToTargetReset: 20
   RoamRange: 25
   RoamDelay: 10
   MinRespawn: 40

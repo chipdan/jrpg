@@ -25,6 +25,7 @@ namespace BLINK.Controller
         }
         void Update()
         {
+
             goal = GameObject.FindWithTag("end_move").transform;
             UnityEngine.AI.NavMeshAgent agent
                 = GetComponent<UnityEngine.AI.NavMeshAgent>();
@@ -54,8 +55,9 @@ namespace BLINK.Controller
             {
                 cube.SetActive(true);
                 rot = 1;
-                controller_player.enabled = true;
                 agent_player.enabled = false;
+                controller_player.enabled = true;
+
             }
         }
 

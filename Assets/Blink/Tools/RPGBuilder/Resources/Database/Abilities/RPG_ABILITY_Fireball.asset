@@ -16,8 +16,9 @@ MonoBehaviour:
   _name: Fireball
   _fileName: RPG_ABILITY_Fireball
   displayName: Fireball
+  Tag: 
   icon: {fileID: 21300000, guid: d23c70ce4c06a2641bc79cd36654bd40, type: 3}
-  learnedByDefault: 0
+  learnedByDefault: 1
   abilityType: 0
   ranks:
   - ShowedInEditor: 1
@@ -35,7 +36,7 @@ MonoBehaviour:
     cancelStealth: 1
     effectsRequirements: []
     useRequirements: []
-    targetType: 8
+    targetType: 4
     HitSettings:
     - alignment: 2
       hitPlayer: 1

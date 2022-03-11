@@ -16,7 +16,6 @@ public class NextMove : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("работает");
-            agent_player.enabled = false;
             Destroy(this.gameObject);
         }
     }
